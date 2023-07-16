@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-31 23:47:41.626223",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "delivery_order",
+  "recipient_name",
+  "grand_total",
+  "remaining_amount",
+  "received_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "delivery_order",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Delivery Order",
+   "options": "Delivery Order",
+   "reqd": 1
+  },
+  {
+   "fieldname": "recipient_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Recipient Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.grand_total",
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Grand Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remaining_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Remaining Amount",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0.0",
+   "fetch_from": "delivery_order.money_received_amount",
+   "fetch_if_empty": 1,
+   "fieldname": "received_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Received Amount",
+   "precision": "2",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-07-13 16:02:44.435644",
+ "modified_by": "Administrator",
+ "module": "TMS",
+ "name": "Money Send Record Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

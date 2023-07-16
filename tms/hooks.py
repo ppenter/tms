@@ -1,7 +1,7 @@
 from . import __version__ as app_version
 
 app_name = "tms"
-app_title = "Tms"
+app_title = "TMS"
 app_publisher = "Jarupak"
 app_description = "Transport Management System"
 app_email = "jarupak.sri@gmail.com"
@@ -201,3 +201,8 @@ app_license = "MIT"
 # ]
 
 website_route_rules = [{'from_route': '/dashboard/<path:app_path>', 'to_route': 'dashboard'},]
+
+# Fixtures
+
+# fixtures = ['Custom Field', 'Client Script', 'Property Setter', 'TMS Item', 'TMS Recipient', 'TMS Customer', 'TMS Expense']
+fixtures = ['Custom Field', 'Client Script', 'Server Script', 'Translation', 'UOM']

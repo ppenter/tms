@@ -1,0 +1,165 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-02 01:06:18.944018",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "delivery_order",
+  "posting_date",
+  "hand_bill_no",
+  "source_warehouse",
+  "sender",
+  "recipient",
+  "recipient_in_line_address",
+  "recipient_province",
+  "recipient_county",
+  "delivery_type",
+  "cash_on",
+  "grand_total",
+  "grand_total_qty",
+  "grand_total_weight",
+  "grand_total_volume"
+ ],
+ "fields": [
+  {
+   "fieldname": "delivery_order",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Delivery Order",
+   "options": "Delivery Order",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fetch_from": "delivery_order.posting_date",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Posting Date",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.hand_bill_no",
+   "fieldname": "hand_bill_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Hand Bill No",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.source_warehouse",
+   "fieldname": "source_warehouse",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Source Warehouse",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.sender_id",
+   "fieldname": "sender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sender",
+   "options": "TMS Customer",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.recipient",
+   "fieldname": "recipient",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Recipient",
+   "options": "TMS Recipient",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.recipient_in_line_address",
+   "fieldname": "recipient_in_line_address",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Recipient In Line Address",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.recipient_province",
+   "fieldname": "recipient_province",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Recipient Province",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.recipient_county",
+   "fieldname": "recipient_county",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Recipient County",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.delivery_type",
+   "fieldname": "delivery_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Delivery Type",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cash_on",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cash On",
+   "options": "\nCash Source\nCash Target\nCredit Source\nCredit Target",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.grand_total",
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "label": "Grand Total",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.grand_total_qty",
+   "fieldname": "grand_total_qty",
+   "fieldtype": "Float",
+   "label": "Grand Total Qty",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.grand_total_weight",
+   "fieldname": "grand_total_weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Grand Total Weight",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "delivery_order.grand_total_volume",
+   "fieldname": "grand_total_volume",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Grand Total Volume",
+   "precision": "2",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-07-13 16:02:40.465372",
+ "modified_by": "Administrator",
+ "module": "TMS",
+ "name": "Delivery Order Trip Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

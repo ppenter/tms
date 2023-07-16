@@ -1,0 +1,238 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-06-14 07:28:54.798370",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "company",
+  "column_break_ka2db",
+  "posting_date",
+  "abbr",
+  "company_infomation_section",
+  "company_id",
+  "company_name",
+  "column_break_4xez4",
+  "company_tax_id",
+  "company_address",
+  "customer_information_section",
+  "customer_type",
+  "customer",
+  "customer_name",
+  "column_break_k6d35",
+  "customer_tax_id",
+  "customer_address",
+  "section_break_zsjej",
+  "items",
+  "grand_total",
+  "payment_received_by",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "ACC-RCP-.company_tax_id.-.YYYY.-.MM.-",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "ACC-RCP-.company_tax_id.-.YYYY.-.MM.-",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "remember_last_selected_value": 1
+  },
+  {
+   "fieldname": "column_break_ka2db",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Now",
+   "fieldname": "posting_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Posting Date",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "company.abbr",
+   "fieldname": "abbr",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Abbr",
+   "read_only": 1
+  },
+  {
+   "fieldname": "company_infomation_section",
+   "fieldtype": "Section Break",
+   "label": "Company Infomation"
+  },
+  {
+   "fieldname": "company_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Company ID",
+   "options": "TMS Customer",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "company_id.address_title",
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4xez4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "company_id.tax_id",
+   "fieldname": "company_tax_id",
+   "fieldtype": "Data",
+   "label": "Company Tax ID",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fetch_from": "company_id.in_line_address",
+   "fieldname": "company_address",
+   "fieldtype": "Small Text",
+   "label": "Company Address",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_information_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Information"
+  },
+  {
+   "default": "TMS Customer",
+   "fieldname": "customer_type",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Customer Type",
+   "options": "\nTMS Customer\nTMS Recipient",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Customer",
+   "options": "Tax Customer",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "customer.address_title",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer Name",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_k6d35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "customer.tax_id",
+   "fieldname": "customer_tax_id",
+   "fieldtype": "Data",
+   "label": "Customer Tax ID",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fetch_from": "customer.in_line_address",
+   "fieldname": "customer_address",
+   "fieldtype": "Small Text",
+   "label": "Customer Address",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_zsjej",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Delivery Order Item",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Grand Total",
+   "non_negative": 1,
+   "precision": "2",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "payment_received_by",
+   "fieldtype": "Data",
+   "label": "Payment Received By",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Receipt",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Purchase Invoice",
+   "link_fieldname": "ref_receipt"
+  }
+ ],
+ "modified": "2023-07-13 21:04:13.312327",
+ "modified_by": "Administrator",
+ "module": "TMS",
+ "name": "Receipt",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

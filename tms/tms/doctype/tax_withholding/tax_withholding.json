@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2023-06-28 18:50:48.892128",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "employee",
+  "date",
+  "grand_total",
+  "tax_charge",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Tax Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "TMS Customer",
+   "reqd": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "default": "0.00",
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Grand Total",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0.00",
+   "fieldname": "tax_charge",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Tax Charge",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "TAX-.YYYY..MM.-",
+   "fieldname": "naming_series",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Naming Series"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-13 16:02:40.125713",
+ "modified_by": "Administrator",
+ "module": "TMS",
+ "name": "Tax Withholding",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "employee"
+}

@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-06-09 06:06:14.458452",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sender_id",
+  "recipient_id",
+  "item",
+  "uom",
+  "rate",
+  "cash_on",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "sender_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sender ID",
+   "options": "TMS Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "recipient_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Recipient ID",
+   "options": "TMS Recipient",
+   "reqd": 1
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "TMS Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "UOM",
+   "options": "UOM",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "label": "Rate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cash_on",
+   "fieldtype": "Select",
+   "label": "Cash On",
+   "options": "\nCash Source\nCash Target\nCredit Source\nCredit Target"
+  },
+  {
+   "default": "TMSITMPL.{##############}.",
+   "fieldname": "naming_series",
+   "fieldtype": "Data",
+   "label": "Naming Series"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-13 16:02:43.666227",
+ "modified_by": "Administrator",
+ "module": "TMS",
+ "name": "TMS Price List",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

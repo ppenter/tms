@@ -1,0 +1,528 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-06-01 21:02:44.090751",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "header_section",
+  "naming_series",
+  "posting_date",
+  "posting_time",
+  "column_break_bv4hi",
+  "hand_bill_no",
+  "delivery_type",
+  "column_break_bhm6a",
+  "company",
+  "abbr",
+  "is_self_pick_up",
+  "section_break_vhvd6",
+  "cash_on",
+  "sender_id",
+  "sender",
+  "sender_in_line_address",
+  "sender_phone",
+  "column_break_s7m0m",
+  "amended_from",
+  "source_warehouse",
+  "recipient_id",
+  "recipient",
+  "recipient_in_line_address",
+  "recipient_phone",
+  "recipient_province",
+  "recipient_county",
+  "section_break_viws2",
+  "items",
+  "total_section",
+  "commission",
+  "column_break_lcgsq",
+  "grand_total",
+  "grand_total_qty",
+  "grand_total_weight",
+  "grand_total_volume",
+  "more_info_tab",
+  "money_send_section",
+  "money_received_amount",
+  "sending_money_status",
+  "transfer_info_section",
+  "tr_no",
+  "transfer_driver",
+  "transfer_driver_name",
+  "transfer_vehicle_no",
+  "transfer_date_time",
+  "dispatch_info_section",
+  "dr_no",
+  "dispatch_driver",
+  "dispatch_driver_name",
+  "dispatch_vehicle_no",
+  "dispatch_date_time",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "header_section",
+   "fieldtype": "Section Break",
+   "label": "Header"
+  },
+  {
+   "default": "DO.abbr..YYYY..MM..######.",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "DO.abbr..YYYY..MM..######.\nRDO.abbr..YYYY..MM..######.",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Posting Date",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Now",
+   "fieldname": "posting_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Posting Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bv4hi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "hand_bill_no",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "Hand Bill No"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Minor",
+   "fieldname": "delivery_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Delivery Type",
+   "options": "\nMinor\nExpress\nTruck",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bhm6a",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "remember_last_selected_value": 1,
+   "reqd": 1
+  },
+  {
+   "fetch_from": "company.abbr",
+   "fieldname": "abbr",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Abbr",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "is_self_pick_up",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Self Pick Up"
+  },
+  {
+   "fieldname": "section_break_vhvd6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Cash Source",
+   "fieldname": "cash_on",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Cash On",
+   "options": "\nCash Source\nCash Target\nCredit Source\nCredit Target",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "sender_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sender ID",
+   "options": "TMS Customer",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fetch_from": "sender_id.address_title",
+   "fieldname": "sender",
+   "fieldtype": "Data",
+   "label": "Sender",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fetch_from": "sender_id.in_line_address",
+   "fieldname": "sender_in_line_address",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Sender In Line Address",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fetch_from": "sender_id.phone",
+   "fieldname": "sender_phone",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sender Phone",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_s7m0m",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Delivery Order",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "source_warehouse",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Source Warehouse",
+   "options": "Warehouse",
+   "remember_last_selected_value": 1,
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "recipient_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Recipient ID",
+   "options": "TMS Recipient",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fetch_from": "recipient_id.address_title",
+   "fieldname": "recipient",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Recipient",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fetch_from": "recipient_id.in_line_address",
+   "fieldname": "recipient_in_line_address",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Recipient In Line Address",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fetch_from": "recipient_id.phone",
+   "fieldname": "recipient_phone",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Recipient Phone",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fetch_from": "recipient_id.state",
+   "fieldname": "recipient_province",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Recipient Province",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fetch_from": "recipient_id.county",
+   "fieldname": "recipient_county",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Recipient County",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_viws2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Delivery Order Items",
+   "options": "Delivery Order Item"
+  },
+  {
+   "fieldname": "total_section",
+   "fieldtype": "Section Break",
+   "label": "Total"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "commission",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Commission",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_lcgsq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Grand Total",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "grand_total_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Grand Total Qty",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "grand_total_weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Grand Total Weight",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "grand_total_volume",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Grand Total Volume",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "more_info_tab",
+   "fieldtype": "Tab Break",
+   "label": "More Info"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "money_send_section",
+   "fieldtype": "Section Break",
+   "label": "Money Send"
+  },
+  {
+   "default": "0",
+   "fieldname": "money_received_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Money Sending Amount",
+   "precision": "2",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "default": "Open",
+   "fieldname": "sending_money_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sending Money Status",
+   "options": "\nOpen\nClose",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "transfer_info_section",
+   "fieldtype": "Section Break",
+   "label": "Transfer Info"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "tr_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Transfer Reference No",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "transfer_driver",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Transfer Driver",
+   "options": "Driver",
+   "read_only": 1
+  },
+  {
+   "fieldname": "transfer_driver_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Transfer Driver Name",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "transfer_vehicle_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Transfer Vehicle No",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "transfer_date_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Transfer Date Time",
+   "read_only": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "dispatch_info_section",
+   "fieldtype": "Section Break",
+   "label": "Dispatch Info"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "dr_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dispatch Reference No",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "dispatch_driver",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Dispatch Driver",
+   "options": "Driver",
+   "read_only": 1
+  },
+  {
+   "fieldname": "dispatch_driver_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dispatch Driver Name",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "dispatch_vehicle_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dispatch Vehicle No",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "dispatch_date_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Dispatch Date Time",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "\nDraft\nSubmitted\nCompleted\nFailed\nReturning\nReturned\nCancelled"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Money Send Record",
+   "link_fieldname": "delivery_order",
+   "parent_doctype": "Money Send Record",
+   "table_fieldname": "items"
+  },
+  {
+   "link_doctype": "Delivery Order Trip",
+   "link_fieldname": "delivery_order"
+  },
+  {
+   "link_doctype": "Delivery Order Transfer",
+   "link_fieldname": "delivery_order"
+  }
+ ],
+ "modified": "2023-07-13 16:02:38.183667",
+ "modified_by": "Administrator",
+ "module": "TMS",
+ "name": "Delivery Order",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
