@@ -205,4 +205,4 @@ website_route_rules = [{'from_route': '/dashboard/<path:app_path>', 'to_route': 
 # Fixtures
 
 # fixtures = ['Custom Field', 'Client Script', 'Property Setter', 'TMS Item', 'TMS Recipient', 'TMS Customer', 'TMS Expense']
-fixtures = ['Custom Field', 'Client Script', 'Server Script', 'Translation', 'UOM', 'Page', 'Print Format']
+fixtures = ['Custom Field', 'Client Script', 'Server Script', 'Translation', 'Page', 'Print Format']

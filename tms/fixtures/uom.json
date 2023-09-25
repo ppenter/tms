@@ -1,0 +1,686 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-09-25 10:56:52.474238",
+  "must_be_whole_number": 0,
+  "name": "\u0e21\u0e31\u0e14\u0e04\u0e39\u0e48",
+  "uom_name": "\u0e21\u0e31\u0e14\u0e04\u0e39\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-01 15:08:40.604396",
+  "must_be_whole_number": 0,
+  "name": "\u0e21\u0e31\u0e14",
+  "uom_name": "\u0e21\u0e31\u0e14"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.792378",
+  "must_be_whole_number": 0,
+  "name": "\u0e2b\u0e48\u0e2d",
+  "uom_name": "\u0e2b\u0e48\u0e2d"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.820758",
+  "must_be_whole_number": 0,
+  "name": "\u0e15\u0e31\u0e27\u0e40\u0e25\u0e47\u0e01",
+  "uom_name": "\u0e15\u0e31\u0e27\u0e40\u0e25\u0e47\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.834181",
+  "must_be_whole_number": 0,
+  "name": "\u0e16\u0e31\u0e07",
+  "uom_name": "\u0e16\u0e31\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.841807",
+  "must_be_whole_number": 0,
+  "name": "\u0e16\u0e38\u0e07",
+  "uom_name": "\u0e16\u0e38\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.849304",
+  "must_be_whole_number": 0,
+  "name": "\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07",
+  "uom_name": "\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.856814",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e23\u0e30\u0e2a\u0e2d\u0e1a",
+  "uom_name": "\u0e01\u0e23\u0e30\u0e2a\u0e2d\u0e1a"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.864940",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e23\u0e30\u0e2a\u0e2d\u0e1a\u0e01\u0e25\u0e32\u0e07",
+  "uom_name": "\u0e01\u0e23\u0e30\u0e2a\u0e2d\u0e1a\u0e01\u0e25\u0e32\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.872838",
+  "must_be_whole_number": 0,
+  "name": "\u0e15\u0e31\u0e27",
+  "uom_name": "\u0e15\u0e31\u0e27"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.880528",
+  "must_be_whole_number": 0,
+  "name": "\u0e21\u0e49\u0e27\u0e19",
+  "uom_name": "\u0e21\u0e49\u0e27\u0e19"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.888231",
+  "must_be_whole_number": 0,
+  "name": "\u0e41\u0e1c\u0e48\u0e19",
+  "uom_name": "\u0e41\u0e1c\u0e48\u0e19"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.896437",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e25\u0e48\u0e2d\u0e07\u0e40\u0e25\u0e47\u0e01",
+  "uom_name": "\u0e01\u0e25\u0e48\u0e2d\u0e07\u0e40\u0e25\u0e47\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.904792",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e25\u0e48\u0e2d\u0e07\u0e01\u0e25\u0e32\u0e07",
+  "uom_name": "\u0e01\u0e25\u0e48\u0e2d\u0e07\u0e01\u0e25\u0e32\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.913145",
+  "must_be_whole_number": 0,
+  "name": "\u0e0a\u0e34\u0e49\u0e19",
+  "uom_name": "\u0e0a\u0e34\u0e49\u0e19"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.922584",
+  "must_be_whole_number": 0,
+  "name": "\u0e25\u0e31\u0e07\u0e44\u0e21\u0e49\u0e40\u0e25\u0e47\u0e01",
+  "uom_name": "\u0e25\u0e31\u0e07\u0e44\u0e21\u0e49\u0e40\u0e25\u0e47\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.930820",
+  "must_be_whole_number": 0,
+  "name": "\u0e25\u0e31\u0e07\u0e44\u0e21\u0e49\u0e43\u0e2b\u0e0d\u0e48",
+  "uom_name": "\u0e25\u0e31\u0e07\u0e44\u0e21\u0e49\u0e43\u0e2b\u0e0d\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.938818",
+  "must_be_whole_number": 0,
+  "name": "\u0e40\u0e2a\u0e49\u0e19",
+  "uom_name": "\u0e40\u0e2a\u0e49\u0e19"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.946891",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e23\u0e30\u0e2a\u0e2d\u0e1a\u0e43\u0e2b\u0e0d\u0e48",
+  "uom_name": "\u0e01\u0e23\u0e30\u0e2a\u0e2d\u0e1a\u0e43\u0e2b\u0e0d\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.954908",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e23\u0e30\u0e2a\u0e2d\u0e1a\u0e40\u0e25\u0e47\u0e01",
+  "uom_name": "\u0e01\u0e23\u0e30\u0e2a\u0e2d\u0e1a\u0e40\u0e25\u0e47\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.962852",
+  "must_be_whole_number": 0,
+  "name": "\u0e0a\u0e38\u0e14",
+  "uom_name": "\u0e0a\u0e38\u0e14"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.970541",
+  "must_be_whole_number": 0,
+  "name": "\u0e25\u0e31\u0e07\u0e44\u0e21\u0e49",
+  "uom_name": "\u0e25\u0e31\u0e07\u0e44\u0e21\u0e49"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.978179",
+  "must_be_whole_number": 0,
+  "name": "\u0e17\u0e48\u0e2d\u0e19",
+  "uom_name": "\u0e17\u0e48\u0e2d\u0e19"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.985699",
+  "must_be_whole_number": 0,
+  "name": "\u0e1a\u0e32\u0e19",
+  "uom_name": "\u0e1a\u0e32\u0e19"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:41.993126",
+  "must_be_whole_number": 0,
+  "name": "\u0e41\u0e1e\u0e47\u0e04",
+  "uom_name": "\u0e41\u0e1e\u0e47\u0e04"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.000558",
+  "must_be_whole_number": 0,
+  "name": "\u0e40\u0e2a\u0e49\u0e19\u0e43\u0e2b\u0e0d\u0e48",
+  "uom_name": "\u0e40\u0e2a\u0e49\u0e19\u0e43\u0e2b\u0e0d\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.008947",
+  "must_be_whole_number": 0,
+  "name": "\u0e1b\u0e34\u0e4a\u0e1a",
+  "uom_name": "\u0e1b\u0e34\u0e4a\u0e1a"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.017101",
+  "must_be_whole_number": 0,
+  "name": "\u0e04\u0e31\u0e19",
+  "uom_name": "\u0e04\u0e31\u0e19"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.024915",
+  "must_be_whole_number": 0,
+  "name": "\u0e43\u0e1a",
+  "uom_name": "\u0e43\u0e1a"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.032551",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e49\u0e2d\u0e19",
+  "uom_name": "\u0e01\u0e49\u0e2d\u0e19"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.040480",
+  "must_be_whole_number": 0,
+  "name": "\u0e0b\u0e2d\u0e07\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23",
+  "uom_name": "\u0e0b\u0e2d\u0e07\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.048127",
+  "must_be_whole_number": 0,
+  "name": "\u0e41\u0e01\u0e25\u0e25\u0e2d\u0e19",
+  "uom_name": "\u0e41\u0e01\u0e25\u0e25\u0e2d\u0e19"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.055900",
+  "must_be_whole_number": 0,
+  "name": "\u0e15\u0e31\u0e27\u0e43\u0e2b\u0e0d\u0e48",
+  "uom_name": "\u0e15\u0e31\u0e27\u0e43\u0e2b\u0e0d\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.063679",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e25\u0e48\u0e2d\u0e07\u0e43\u0e2b\u0e0d\u0e48",
+  "uom_name": "\u0e01\u0e25\u0e48\u0e2d\u0e07\u0e43\u0e2b\u0e0d\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.071400",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e25\u0e48\u0e2d\u0e07\u0e42\u0e1f\u0e21",
+  "uom_name": "\u0e01\u0e25\u0e48\u0e2d\u0e07\u0e42\u0e1f\u0e21"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.079225",
+  "must_be_whole_number": 0,
+  "name": "\u0e25\u0e39\u0e01",
+  "uom_name": "\u0e25\u0e39\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.086809",
+  "must_be_whole_number": 0,
+  "name": "\u0e41\u0e16\u0e27",
+  "uom_name": "\u0e41\u0e16\u0e27"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.094586",
+  "must_be_whole_number": 0,
+  "name": "\u0e25\u0e49\u0e2d\u0e44\u0e21\u0e49",
+  "uom_name": "\u0e25\u0e49\u0e2d\u0e44\u0e21\u0e49"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.102719",
+  "must_be_whole_number": 0,
+  "name": "\u0e02\u0e14",
+  "uom_name": "\u0e02\u0e14"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.110464",
+  "must_be_whole_number": 0,
+  "name": "\u0e25\u0e33",
+  "uom_name": "\u0e25\u0e33"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.117954",
+  "must_be_whole_number": 0,
+  "name": "\u0e2d\u0e07\u0e04\u0e4c",
+  "uom_name": "\u0e2d\u0e07\u0e04\u0e4c"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.125845",
+  "must_be_whole_number": 0,
+  "name": "\u0e2b\u0e48\u0e2d\u0e40\u0e25\u0e47\u0e01",
+  "uom_name": "\u0e2b\u0e48\u0e2d\u0e40\u0e25\u0e47\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.133865",
+  "must_be_whole_number": 0,
+  "name": "\u0e21\u0e31\u0e14\u0e43\u0e2b\u0e0d\u0e48",
+  "uom_name": "\u0e21\u0e31\u0e14\u0e43\u0e2b\u0e0d\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.141484",
+  "must_be_whole_number": 0,
+  "name": "\u0e27\u0e07",
+  "uom_name": "\u0e27\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.149391",
+  "must_be_whole_number": 0,
+  "name": "\u0e15\u0e49\u0e19",
+  "uom_name": "\u0e15\u0e49\u0e19"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.157164",
+  "must_be_whole_number": 0,
+  "name": "\u0e2b\u0e48\u0e2d\u0e01\u0e25\u0e32\u0e07",
+  "uom_name": "\u0e2b\u0e48\u0e2d\u0e01\u0e25\u0e32\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.164633",
+  "must_be_whole_number": 0,
+  "name": "\u0e1a\u0e34\u0e25",
+  "uom_name": "\u0e1a\u0e34\u0e25"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.172613",
+  "must_be_whole_number": 0,
+  "name": "\u0e02\u0e27\u0e14",
+  "uom_name": "\u0e02\u0e27\u0e14"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.180181",
+  "must_be_whole_number": 0,
+  "name": "\u0e40\u0e2a\u0e49\u0e19\u0e40\u0e25\u0e47\u0e01",
+  "uom_name": "\u0e40\u0e2a\u0e49\u0e19\u0e40\u0e25\u0e47\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.187769",
+  "must_be_whole_number": 0,
+  "name": "\u0e1e\u0e32\u0e40\u0e25\u0e17",
+  "uom_name": "\u0e1e\u0e32\u0e40\u0e25\u0e17"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.196073",
+  "must_be_whole_number": 0,
+  "name": "\u0e14\u0e49\u0e32\u0e21",
+  "uom_name": "\u0e14\u0e49\u0e32\u0e21"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.203740",
+  "must_be_whole_number": 0,
+  "name": "\u0e41\u0e1c\u0e07",
+  "uom_name": "\u0e41\u0e1c\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.212662",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e23\u0e30\u0e1b\u0e4b\u0e2d\u0e07",
+  "uom_name": "\u0e01\u0e23\u0e30\u0e1b\u0e4b\u0e2d\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.223811",
+  "must_be_whole_number": 0,
+  "name": "\u0e21\u0e49\u0e27\u0e19\u0e43\u0e2b\u0e0d\u0e48",
+  "uom_name": "\u0e21\u0e49\u0e27\u0e19\u0e43\u0e2b\u0e0d\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.233138",
+  "must_be_whole_number": 0,
+  "name": "\u0e16\u0e31\u0e07\u0e40\u0e25\u0e47\u0e01",
+  "uom_name": "\u0e16\u0e31\u0e07\u0e40\u0e25\u0e47\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.241178",
+  "must_be_whole_number": 0,
+  "name": "\u0e25\u0e49\u0e2d\u0e1e\u0e25\u0e32\u0e2a\u0e15\u0e34\u0e01",
+  "uom_name": "\u0e25\u0e49\u0e2d\u0e1e\u0e25\u0e32\u0e2a\u0e15\u0e34\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.249216",
+  "must_be_whole_number": 0,
+  "name": "\u0e25\u0e49\u0e2d",
+  "uom_name": "\u0e25\u0e49\u0e2d"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.256687",
+  "must_be_whole_number": 0,
+  "name": "\u0e04\u0e39\u0e48",
+  "uom_name": "\u0e04\u0e39\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.264026",
+  "must_be_whole_number": 0,
+  "name": "\u0e21\u0e49\u0e27\u0e19\u0e01\u0e25\u0e32\u0e07",
+  "uom_name": "\u0e21\u0e49\u0e27\u0e19\u0e01\u0e25\u0e32\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.271597",
+  "must_be_whole_number": 0,
+  "name": "\u0e2b\u0e48\u0e2d\u0e43\u0e2b\u0e0d\u0e48",
+  "uom_name": "\u0e2b\u0e48\u0e2d\u0e43\u0e2b\u0e0d\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.278977",
+  "must_be_whole_number": 0,
+  "name": "\u0e16\u0e32\u0e14",
+  "uom_name": "\u0e16\u0e32\u0e14"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.287185",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e25\u0e48\u0e2d\u0e07\u0e1e\u0e25\u0e32\u0e2a\u0e15\u0e34\u0e01",
+  "uom_name": "\u0e01\u0e25\u0e48\u0e2d\u0e07\u0e1e\u0e25\u0e32\u0e2a\u0e15\u0e34\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.295386",
+  "must_be_whole_number": 0,
+  "name": "\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23",
+  "uom_name": "\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.303040",
+  "must_be_whole_number": 0,
+  "name": "\u0e16\u0e38\u0e07\u0e40\u0e25\u0e47\u0e01",
+  "uom_name": "\u0e16\u0e38\u0e07\u0e40\u0e25\u0e47\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.310966",
+  "must_be_whole_number": 0,
+  "name": "\u0e25\u0e49\u0e2d\u0e44\u0e21\u0e49\u0e43\u0e2b\u0e0d\u0e48",
+  "uom_name": "\u0e25\u0e49\u0e2d\u0e44\u0e21\u0e49\u0e43\u0e2b\u0e0d\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.318395",
+  "must_be_whole_number": 0,
+  "name": "\u0e0a\u0e38\u0e14\u0e40\u0e25\u0e47\u0e01",
+  "uom_name": "\u0e0a\u0e38\u0e14\u0e40\u0e25\u0e47\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.325824",
+  "must_be_whole_number": 0,
+  "name": "\u0e25\u0e49\u0e2d\u0e44\u0e21\u0e49\u0e40\u0e25\u0e47\u0e01",
+  "uom_name": "\u0e25\u0e49\u0e2d\u0e44\u0e21\u0e49\u0e40\u0e25\u0e47\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.333910",
+  "must_be_whole_number": 0,
+  "name": "\u0e21\u0e31\u0e14\u0e40\u0e25\u0e47\u0e01",
+  "uom_name": "\u0e21\u0e31\u0e14\u0e40\u0e25\u0e47\u0e01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.341393",
+  "must_be_whole_number": 0,
+  "name": "\u0e2b\u0e25\u0e31\u0e07",
+  "uom_name": "\u0e2b\u0e25\u0e31\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.348923",
+  "must_be_whole_number": 0,
+  "name": "\u0e16\u0e31\u0e07\u0e43\u0e2b\u0e0d\u0e48",
+  "uom_name": "\u0e16\u0e31\u0e07\u0e43\u0e2b\u0e0d\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.356187",
+  "must_be_whole_number": 0,
+  "name": "\u0e40\u0e02\u0e48\u0e07",
+  "uom_name": "\u0e40\u0e02\u0e48\u0e07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-09 04:35:42.363573",
+  "must_be_whole_number": 0,
+  "name": "\u0e0a\u0e38\u0e14\u0e43\u0e2b\u0e0d\u0e48",
+  "uom_name": "\u0e0a\u0e38\u0e14\u0e43\u0e2b\u0e0d\u0e48"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-07-26 16:31:11.315996",
+  "must_be_whole_number": 0,
+  "name": "\u0e25\u0e34\u0e15\u0e23",
+  "uom_name": "\u0e25\u0e34\u0e15\u0e23"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-08-29 01:22:41.195451",
+  "must_be_whole_number": 0,
+  "name": "\u0e1b\u0e35",
+  "uom_name": "\u0e1b\u0e35"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-01 15:05:39.840567",
+  "must_be_whole_number": 0,
+  "name": "\u0e2b\u0e19\u0e48\u0e27\u0e22",
+  "uom_name": "\u0e2b\u0e19\u0e48\u0e27\u0e22"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-06-01 15:08:35.896841",
+  "must_be_whole_number": 0,
+  "name": "\u0e01\u0e25\u0e48\u0e2d\u0e07",
+  "uom_name": "\u0e01\u0e25\u0e48\u0e2d\u0e07"
+ }
+]
