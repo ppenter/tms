@@ -35,6 +35,7 @@
   "recipient_province",
   "recipient_county",
   "section_break_viws2",
+  "calculate_price",
   "items",
   "total_section",
   "commission",
@@ -480,7 +481,12 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Status",
-   "options": "\nDraft\nSubmitted\nCompleted\nFailed\nReturning\nReturned\nCancelled"
+   "options": "\nDraft\nSubmitted\nCancelled"
+  },
+  {
+   "fieldname": "calculate_price",
+   "fieldtype": "Button",
+   "label": "Calculate Price"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -501,7 +507,7 @@
    "link_fieldname": "delivery_order"
   }
  ],
- "modified": "2023-07-13 16:02:38.183667",
+ "modified": "2023-07-31 05:14:04.833606",
  "modified_by": "Administrator",
  "module": "TMS",
  "name": "Delivery Order",

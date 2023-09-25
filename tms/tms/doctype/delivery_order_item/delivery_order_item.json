@@ -63,7 +63,6 @@
   {
    "allow_on_submit": 1,
    "columns": 1,
-   "fetch_from": "item_code.stock_uom",
    "fieldname": "uom",
    "fieldtype": "Link",
    "in_list_view": 1,
@@ -134,7 +133,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-07-13 21:14:53.111783",
+ "modified": "2023-09-22 08:43:54.458376",
  "modified_by": "Administrator",
  "module": "TMS",
  "name": "Delivery Order Item",

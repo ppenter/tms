@@ -174,7 +174,7 @@
    "fieldname": "items",
    "fieldtype": "Table",
    "label": "Items",
-   "options": "Delivery Order Item",
+   "options": "Receipt Item",
    "reqd": 1
   },
   {
@@ -212,7 +212,7 @@
    "link_fieldname": "ref_receipt"
   }
  ],
- "modified": "2023-07-13 21:04:13.312327",
+ "modified": "2023-07-29 05:38:42.723385",
  "modified_by": "Administrator",
  "module": "TMS",
  "name": "Receipt",
