@@ -19,6 +19,7 @@
   "city",
   "country",
   "pincode",
+  "remark",
   "column_break0",
   "tax_id",
   "email_id",
@@ -160,11 +161,16 @@
    "options": "TMS Customer",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Text",
+   "label": "Remark"
   }
  ],
  "icon": "fa fa-map-marker",
  "links": [],
- "modified": "2023-07-13 16:02:41.656721",
+ "modified": "2023-10-30 14:19:21.218980",
  "modified_by": "Administrator",
  "module": "TMS",
  "name": "TMS Customer",

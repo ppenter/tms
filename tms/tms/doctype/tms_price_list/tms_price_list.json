@@ -22,6 +22,7 @@
    "fieldname": "sender_id",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Sender ID",
    "options": "TMS Customer",
    "reqd": 1
@@ -30,6 +31,7 @@
    "fieldname": "recipient_id",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Recipient ID",
    "options": "TMS Recipient",
    "reqd": 1
@@ -38,6 +40,7 @@
    "fieldname": "item",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Item",
    "options": "TMS Item",
    "reqd": 1
@@ -46,6 +49,7 @@
    "fieldname": "uom",
    "fieldtype": "Data",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "UOM",
    "options": "UOM",
    "reqd": 1
@@ -54,12 +58,15 @@
    "default": "0",
    "fieldname": "rate",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Rate",
    "reqd": 1
   },
   {
    "fieldname": "cash_on",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Cash On",
    "options": "\nCash Source\nCash Target\nCredit Source\nCredit Target"
   },
@@ -72,7 +79,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-13 16:02:43.666227",
+ "modified": "2023-11-17 22:48:24.144090",
  "modified_by": "Administrator",
  "module": "TMS",
  "name": "TMS Price List",

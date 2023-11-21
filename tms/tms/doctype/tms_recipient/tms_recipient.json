@@ -19,6 +19,7 @@
   "city",
   "country",
   "pincode",
+  "remark",
   "column_break0",
   "tax_id",
   "email_id",
@@ -27,7 +28,8 @@
   "is_company_address",
   "in_line_address",
   "disabled",
-  "naming_series"
+  "naming_series",
+  "geo"
  ],
  "fields": [
   {
@@ -73,6 +75,7 @@
    "allow_in_quick_entry": 1,
    "fieldname": "county",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "County",
    "read_only_depends_on": "eval:(!doc.state)"
   },
@@ -155,11 +158,21 @@
    "hidden": 1,
    "label": "Naming Series",
    "read_only": 1
+  },
+  {
+   "fieldname": "geo",
+   "fieldtype": "Geolocation",
+   "label": "Geo"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Text",
+   "label": "Remark"
   }
  ],
  "icon": "fa fa-map-marker",
  "links": [],
- "modified": "2023-07-13 16:02:42.540104",
+ "modified": "2023-10-30 14:16:43.296622",
  "modified_by": "Administrator",
  "module": "TMS",
  "name": "TMS Recipient",
