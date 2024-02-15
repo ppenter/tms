@@ -200,7 +200,7 @@ app_license = "MIT"
 #	"tms.auth.validate"
 # ]
 
-website_route_rules = [{'from_route': '/pod/<path:app_path>', 'to_route': 'pod'}, {'from_route': '/dashboard/<path:app_path>', 'to_route': 'dashboard'},]
+website_route_rules = [{'from_route': '/pod/<path:app_path>', 'to_route': 'pod'},]
 
 # Fixtures
 
