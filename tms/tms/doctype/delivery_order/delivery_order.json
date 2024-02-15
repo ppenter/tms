@@ -69,7 +69,10 @@
   "dispatch_date_time",
   "status",
   "more_information",
-  "barcode"
+  "barcode",
+  "current_warehouse",
+  "transfer_status",
+  "delivered"
  ],
  "fields": [
   {
@@ -566,9 +569,35 @@
   },
   {
    "allow_on_submit": 1,
+   "fetch_from": "recipient_id.special_remark",
+   "fetch_if_empty": 1,
    "fieldname": "remark",
-   "fieldtype": "Text",
-   "label": "Remark"
+   "fieldtype": "Data",
+   "label": "Sepecial Remark"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "current_warehouse",
+   "fieldtype": "Link",
+   "label": "Current Warehouse",
+   "options": "Warehouse"
+  },
+  {
+   "default": "Open",
+   "fieldname": "transfer_status",
+   "fieldtype": "Data",
+   "label": "Transfer Status",
+   "options": "\nOpen\nLoaded\nIn Transit\nArrived",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "delivered",
+   "fieldtype": "Check",
+   "label": "Delivered",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
@@ -589,7 +618,7 @@
    "link_fieldname": "delivery_order"
   }
  ],
- "modified": "2023-11-17 23:23:55.607256",
+ "modified": "2024-02-09 03:19:06.130520",
  "modified_by": "Administrator",
  "module": "TMS",
  "name": "Delivery Order",

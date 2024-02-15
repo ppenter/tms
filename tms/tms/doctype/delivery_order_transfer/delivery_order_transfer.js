@@ -3,12 +3,14 @@ function setCreatePurchaseInvoiceButton(frm) {
         return false
     }
     frm.add_custom_button(__("Purchase Invoice"), async () => {
-        frappe.new_doc('Purchase Invoice', {
-            'supplier': cur_frm.doc.transporter,
+        console.log(frm)
+        const option = {
+            'supplier': frm.doc.transporter,
             tms_reference_type: 'Delivery Order Transfer',
-            ref_delivery_order_transfer: cur_frm.doc.name,
-            company: cur_frm.doc.company
-        })
+            ref_delivery_order_transfer: frm.doc.name,
+            company: frm.doc.company
+        }
+        frappe.new_doc('Purchase Invoice', option)
     }, __("Create"))
 }
 

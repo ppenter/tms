@@ -20,6 +20,7 @@
   "country",
   "pincode",
   "remark",
+  "special_remark",
   "column_break0",
   "tax_id",
   "email_id",
@@ -29,7 +30,11 @@
   "in_line_address",
   "disabled",
   "naming_series",
-  "geo"
+  "map",
+  "latitude",
+  "longitude",
+  "last_update_location_by",
+  "last_update_location_date"
  ],
  "fields": [
   {
@@ -160,19 +165,46 @@
    "read_only": 1
   },
   {
-   "fieldname": "geo",
-   "fieldtype": "Geolocation",
-   "label": "Geo"
-  },
-  {
    "fieldname": "remark",
    "fieldtype": "Text",
    "label": "Remark"
+  },
+  {
+   "fieldname": "special_remark",
+   "fieldtype": "Data",
+   "label": "Special Remark"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Float",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "map",
+   "fieldtype": "HTML",
+   "label": "Map"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Float",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "last_update_location_by",
+   "fieldtype": "Data",
+   "label": "Last Update Location By",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_update_location_date",
+   "fieldtype": "Datetime",
+   "label": "Last Update Location Date",
+   "read_only": 1
   }
  ],
  "icon": "fa fa-map-marker",
  "links": [],
- "modified": "2023-10-30 14:16:43.296622",
+ "modified": "2024-02-09 02:35:06.579844",
  "modified_by": "Administrator",
  "module": "TMS",
  "name": "TMS Recipient",
@@ -234,10 +266,11 @@
    "write": 1
   }
  ],
- "search_fields": "county, state",
+ "search_fields": "city, county, state",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "address_title"
+ "title_field": "address_title",
+ "track_changes": 1
 }

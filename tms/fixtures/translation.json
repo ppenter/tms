@@ -1255,10 +1255,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "th",
-  "modified": "2023-06-16 15:32:31.626073",
+  "modified": "2023-10-17 11:45:00.942059",
   "name": "49ff8735f2",
   "source_text": "Transfer Reference No",
-  "translated_text": "\u0e40\u0e25\u0e02\u0e43\u0e1a\u0e04\u0e38\u0e21\u0e23\u0e16"
+  "translated_text": "\u0e40\u0e25\u0e02\u0e43\u0e1a\u0e04\u0e38\u0e21\u0e23\u0e16\u0e22\u0e49\u0e32\u0e22\u0e2a\u0e34\u0e19\u0e04\u0e49\u0e32"
  },
  {
   "context": null,
@@ -1346,10 +1346,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "th",
-  "modified": "2023-06-16 15:36:35.462884",
+  "modified": "2023-10-17 11:44:53.910559",
   "name": "b12090159a",
   "source_text": "Dispatch Reference No",
-  "translated_text": "\u0e40\u0e25\u0e02\u0e43\u0e1a\u0e04\u0e38\u0e21\u0e23\u0e16"
+  "translated_text": "\u0e40\u0e25\u0e02\u0e43\u0e1a\u0e04\u0e38\u0e21\u0e23\u0e16\u0e01\u0e23\u0e30\u0e08\u0e32\u0e22\u0e2a\u0e34\u0e19\u0e04\u0e49\u0e32"
  },
  {
   "context": null,
@@ -1411,10 +1411,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "th",
-  "modified": "2023-06-16 15:37:41.163997",
+  "modified": "2023-10-18 16:32:31.792955",
   "name": "3f3de55147",
   "source_text": "Money Send Record",
-  "translated_text": "\u0e01\u0e32\u0e23\u0e2a\u0e48\u0e07\u0e40\u0e07\u0e34\u0e19"
+  "translated_text": "\u0e43\u0e1a\u0e27\u0e32\u0e07\u0e1a\u0e34\u0e25"
  },
  {
   "context": null,
@@ -1714,5 +1714,44 @@
   "name": "4940fddff9",
   "source_text": "County Extended Price",
   "translated_text": "\u0e04\u0e48\u0e32\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e2d\u0e33\u0e40\u0e20\u0e2d\u0e2b\u0e48\u0e32\u0e07\u0e44\u0e01\u0e25"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "th",
+  "modified": "2023-10-09 15:58:48.821969",
+  "name": "1eb2a3571b",
+  "source_text": "Absent Deduct",
+  "translated_text": "\u0e2b\u0e31\u0e01\u0e02\u0e32\u0e14\u0e07\u0e32\u0e19"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "th",
+  "modified": "2023-10-18 16:43:34.845675",
+  "name": "0c5fc0775c",
+  "source_text": "Charge Amount",
+  "translated_text": "\u0e40\u0e23\u0e35\u0e22\u0e01\u0e40\u0e01\u0e47\u0e1a"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "th",
+  "modified": "2023-10-19 15:33:26.620305",
+  "name": "40a691d8cc",
+  "source_text": "Recipient Name",
+  "translated_text": "\u0e0a\u0e37\u0e48\u0e2d\u0e1c\u0e39\u0e49\u0e23\u0e31\u0e1a"
  }
 ]

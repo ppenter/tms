@@ -6,6 +6,7 @@ import { FrappeProvider } from 'frappe-react-sdk'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Index from './pages/Index.tsx'
 import Auth from './pages/Auth.tsx'
+import { POD } from './pages/pod.tsx'
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,14 @@ const router = createBrowserRouter([
         path: "lobby",
         element: <Index />,
       },
+      {
+        path: "employee",
+        element: <Index />,
+      },
+      {
+        path: "pod",
+        element: <POD />,
+      }
     ],
   },
   {

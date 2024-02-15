@@ -200,9 +200,37 @@ app_license = "MIT"
 #	"tms.auth.validate"
 # ]
 
-website_route_rules = [{'from_route': '/dashboard/<path:app_path>', 'to_route': 'dashboard'},]
+website_route_rules = [{'from_route': '/pod/<path:app_path>', 'to_route': 'pod'}, {'from_route': '/dashboard/<path:app_path>', 'to_route': 'dashboard'},]
 
 # Fixtures
 
 # fixtures = ['Custom Field', 'Client Script', 'Property Setter', 'TMS Item', 'TMS Recipient', 'TMS Customer', 'TMS Expense']
-fixtures = ['Custom Field', 'Client Script', 'Server Script', 'Translation', 'Page', 'Print Format']
+# fixtures = ['Custom Field', 'Client Script', 'Server Script', 'Translation', 'Page', 'Print Format']
+
+fixtures = [
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["module", "=", app_title]
+        ]
+    },
+    {
+        "dt": "Client Script",
+        "filters": [
+            ["module", "=", app_title]
+        ]
+    },
+    {
+        "dt": "Server Script",
+        "filters": [
+            ["module", "=", app_title]
+        ]
+    },
+    {
+        "dt": "Print Format",
+        "filters": [
+            ["module", "=", app_title]
+        ]
+    },
+    "Translation"
+]

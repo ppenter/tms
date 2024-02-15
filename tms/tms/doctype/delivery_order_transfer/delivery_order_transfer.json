@@ -7,10 +7,12 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "letter_head",
   "posting_date",
   "posting_time",
   "source_warehouse",
   "target_warehouse",
+  "transfer_status",
   "column_break_62by2",
   "company",
   "abbr",
@@ -138,6 +140,7 @@
   },
   {
    "allow_in_quick_entry": 1,
+   "allow_on_submit": 1,
    "depends_on": "eval:(doc.transporter != null)",
    "fieldname": "payment_total",
    "fieldtype": "Currency",
@@ -193,6 +196,24 @@
    "label": "Naming Series",
    "read_only": 1,
    "set_only_once": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "letter_head",
+   "fieldtype": "Link",
+   "label": "Letter Head",
+   "options": "Letter Head"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Loaded",
+   "fieldname": "transfer_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Transfer Status",
+   "options": "\nLoaded\nIn Transit\nArrived\nCompleted",
+   "read_only": 1,
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
@@ -203,7 +224,7 @@
    "link_fieldname": "ref_delivery_order_transfer"
   }
  ],
- "modified": "2023-07-13 21:03:49.730488",
+ "modified": "2023-12-06 17:22:38.822667",
  "modified_by": "Administrator",
  "module": "TMS",
  "name": "Delivery Order Transfer",
