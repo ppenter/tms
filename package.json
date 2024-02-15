@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cd dashboard && yarn dev",
-    "build": "cd dashboard && yarn && yarn build"
+    "dev": "cd pod && yarn dev",
+    "build": "cd pod && yarn && yarn build"
   },
   "keywords": [],
   "author": "",
