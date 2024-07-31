@@ -116,13 +116,13 @@ def calculate_total(doc):
 class DeliveryOrder(Document):
 
 	def before_submit(self):
-		# frappe.msgprint(("before_submit"))
 		self.transfer_target_warehouse = None
 		self.status = 'Submitted'
 
 		self.current_warehouse = self.source_warehouse
 		self.transfer_status = 'Open'
-		frappe.enqueue(check_has_price_and_update, queue='long', doc=self)
+		frappe.enqueue(check_has_price_and_update, queue='long', doc=self)# frappe.msgprint(("before_submit"))
+		
 
 	def before_update_after_submit(self):
 		# frappe.msgprint(("before_update_after_submit"))
@@ -135,7 +135,7 @@ class DeliveryOrder(Document):
 		else:
 			self.sending_money_status = 'Open'
 		
-		frappe.enqueue(update_link_doc, queue='long', doc=self)
+		# frappe.enqueue(update_link_doc, queue='long', doc=self)
 		frappe.enqueue(check_has_price_and_update, queue='long', doc=self)
 	
 	def on_cancel(self):

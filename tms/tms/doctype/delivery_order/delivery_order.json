@@ -81,12 +81,15 @@
    "label": "Header"
   },
   {
+   "bold": 1,
    "default": "DO.abbr..YYYY..MM..DD..####.",
    "fieldname": "naming_series",
    "fieldtype": "Select",
    "label": "Naming Series",
+   "no_copy": 1,
    "options": "DO.abbr..YYYY..MM..DD..####.\nRDO.abbr..YYYY..MM..DD..####.",
-   "reqd": 1
+   "reqd": 1,
+   "set_only_once": 1
   },
   {
    "allow_on_submit": 1,
@@ -554,6 +557,7 @@
    "read_only": 1
   },
   {
+   "allow_on_submit": 1,
    "fetch_from": "sender_id.remark",
    "fieldname": "sender_remark",
    "fieldtype": "Text",
@@ -561,6 +565,7 @@
    "read_only": 1
   },
   {
+   "allow_on_submit": 1,
    "fetch_from": "recipient_id.remark",
    "fieldname": "recipient_remark",
    "fieldtype": "Text",
@@ -618,7 +623,7 @@
    "link_fieldname": "delivery_order"
   }
  ],
- "modified": "2024-02-09 03:19:06.130520",
+ "modified": "2024-07-28 00:05:31.331941",
  "modified_by": "Administrator",
  "module": "TMS",
  "name": "Delivery Order",

@@ -264,7 +264,7 @@ frappe.ui.form.on('Delivery Order', {
 })
 
             frappe.ui.form.on('Delivery Order Item', {
-                refresh(frm) {},
+                // refresh(frm) {},
                 rate(frm) {
                     calculate_all(frm)
                 },

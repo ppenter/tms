@@ -8,6 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "customer",
+  "customer_tax_id",
   "employee",
   "date",
   "grand_total",
@@ -63,11 +64,18 @@
    "fieldtype": "Data",
    "hidden": 1,
    "label": "Naming Series"
+  },
+  {
+   "fetch_from": "customer.tax_id",
+   "fieldname": "customer_tax_id",
+   "fieldtype": "Data",
+   "label": "Customer Tax ID",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-13 16:02:40.125713",
+ "modified": "2024-03-07 16:21:10.455534",
  "modified_by": "Administrator",
  "module": "TMS",
  "name": "Tax Withholding",
